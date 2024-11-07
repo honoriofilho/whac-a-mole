@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct SpatialComputingApp: App {
     var body: some Scene {
-        WindowGroup {
+        ImmersiveSpace {
             ContentView()
         }
+        .immersionStyle(selection: .constant(.mixed), in: .mixed)
     }
 }
