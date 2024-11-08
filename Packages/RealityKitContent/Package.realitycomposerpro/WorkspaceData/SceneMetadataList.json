@@ -8,15 +8,6 @@
     "objectMetadataList" : [
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
-        "Root",
-        "Sphere"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
         "Root"
       ],
       {
@@ -27,6 +18,15 @@
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
         "Root",
         "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root",
+        "Sphere"
       ],
       {
         "isExpanded" : true,
@@ -43,27 +43,35 @@
     "objectMetadataList" : [
       [
         "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Root",
-        "MoveToMole",
-        "Track2"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Root",
-        "MoveToMole"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
         "Buraco_topera",
         "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Topera"
+      ],
+      {
+        "disallowsFraming" : false,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Root",
+        "MoveToMole",
         "Track"
       ],
       {
@@ -81,7 +89,8 @@
       },
       [
         "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Root"
+        "Root",
+        "MoveToMole"
       ],
       {
         "isExpanded" : true,
@@ -91,7 +100,7 @@
         "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
         "Root",
         "MoveToMole",
-        "Track"
+        "Track2"
       ],
       {
         "isExpanded" : true,
@@ -105,15 +114,6 @@
       ],
       {
         "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Topera"
-      ],
-      {
-        "disallowsFraming" : false,
-        "isExpanded" : false,
         "isLocked" : false
       }
     ]
@@ -150,8 +150,7 @@
       [
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
-        "Timeline",
-        "Track3"
+        "Moviment"
       ],
       {
         "isExpanded" : true,
@@ -188,7 +187,8 @@
       [
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
-        "Moviment"
+        "Timeline",
+        "Track3"
       ],
       {
         "isExpanded" : true,
@@ -197,8 +197,8 @@
       [
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
-        "Timeline",
-        "Track"
+        "Moviment",
+        "Track3"
       ],
       {
         "isExpanded" : true,
@@ -217,8 +217,370 @@
       [
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
-        "Moviment",
-        "Track3"
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "8815EE58-1738-4130-9080-455C3A59078F" : {
+    "objectMetadataList" : [
+      [
+        "8815EE58-1738-4130-9080-455C3A59078F",
+        "Root",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8815EE58-1738-4130-9080-455C3A59078F",
+        "Root",
+        "buraco_pinguim",
+        "scene"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8815EE58-1738-4130-9080-455C3A59078F",
+        "Root",
+        "buraco_pinguim"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8815EE58-1738-4130-9080-455C3A59078F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8815EE58-1738-4130-9080-455C3A59078F",
+        "Root",
+        "Timeline"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8815EE58-1738-4130-9080-455C3A59078F",
+        "Root",
+        "buraco_pinguim",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D20B46EF-9364-429B-8362-C61153E2BD65" : {
+    "objectMetadataList" : [
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root",
+        "buraco_pinguim",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root",
+        "movimento",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root",
+        "movimento"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root",
+        "buraco_pinguim"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "DB3BCE19-632A-48B1-A913-8E2380D27099" : {
+    "objectMetadataList" : [
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
+        "RootNode_16",
+        "lens_low_6",
+        "lens_low_lens_low_0_5",
+        "Object_2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
+        "RootNode_16",
+        "lens_low_6",
+        "lens_low_lens_low_0_5"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
+        "RootNode_16"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "buraco_pinguim",
+        "movimento",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "buraco_pinguim",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "buraco_pinguim",
+        "movimento"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
+        "RootNode_16",
+        "lens_low_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Hole_1",
+        "Object_0"
       ],
       {
         "isExpanded" : true,

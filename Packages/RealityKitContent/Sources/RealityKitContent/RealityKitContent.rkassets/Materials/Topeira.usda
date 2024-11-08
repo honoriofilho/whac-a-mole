@@ -42,7 +42,10 @@ def Xform "Root"
 
         def RealityKitComponent "RCP_BehaviorsContainer"
         {
-            rel behaviors = </Root/Topera/OnTap>
+            rel behaviors = [
+                </Root/Topera/OnTap>,
+                </Root/Topera/OnNotification>,
+            ]
             uniform token info:id = "RCP.BehaviorsContainer"
         }
 
@@ -68,6 +71,41 @@ def Xform "Root"
                 int performCount = 1
                 token type = "serial"
             }
+        }
+
+        def RealityKitCustomComponent "RealityKitContent_MovimentComponent"
+        {
+            uniform token info:id = "RealityKitContent.MovimentComponent"
+        }
+
+        def Preliminary_Behavior "OnNotification"
+        {
+            rel actions = </Root/Topera/OnNotification/Action>
+            uniform bool exclusive
+            rel triggers = </Root/Topera/OnNotification/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/Topera>
+                string identifier = "popMoviment"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/Moviment>
+                rel animationLibraryKeyOverrideKey = </Root/Topera/OnNotification/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def RealityKitComponent "AnimationLibrary"
+        {
+            uniform token info:id = "RealityKit.AnimationLibrary"
         }
     }
 
