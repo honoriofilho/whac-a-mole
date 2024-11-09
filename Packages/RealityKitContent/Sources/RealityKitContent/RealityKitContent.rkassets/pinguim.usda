@@ -1,0 +1,119 @@
+#usda 1.0
+(
+    defaultPrim = "pinguim"
+)
+
+def "pinguim" (
+    active = true
+    references = @Assets/buraco_pinguim.usdz@
+)
+{
+    quatf xformOp:orient = (1, 0, 0, 0)
+    float3 xformOp:scale = (0.01, 0.01, 0.01)
+    float3 xformOp:translate = (0, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    over "Meshes"
+    {
+        over "Sketchfab_model"
+        {
+            over "root"
+            {
+                over "GLTF_SceneRootNode"
+                {
+                    over "pinguim_001_39"
+                    {
+                        quatf xformOp:orient = (0.70710677, 0.7071067, 0, 0)
+                        float3 xformOp:scale = (0.5, 0.50000006, 0.50000006)
+                        float3 xformOp:translate = (-1.7156041, 9.997194, -1.5872656)
+                        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                        def RealityKitComponent "AnimationLibrary"
+                        {
+                            uniform token info:id = "RealityKit.AnimationLibrary"
+
+                            def RealityKitClipDefinition "Clip_default_subtree_animation"
+                            {
+                                uniform string[] clipNames = ["subir", "descer"]
+                                uniform string sourceAnimationName = "default subtree animation"
+                                uniform double[] startTimes = [0, 2.062777777777778]
+                            }
+
+                            def RealityKitAnimationFile "subir"
+                            {
+                                uniform bool looping = 1
+                                uniform string name = "subir"
+                            }
+
+                            def RealityKitAnimationFile "descer"
+                            {
+                                uniform bool looping = 1
+                                uniform string name = "descer"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "move"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Animation"
+            {
+                string actionKind = "animation"
+                string animation = "descer"
+                int blendLayer = 500
+                double duration = 2.1038887299431694
+                uniform token info:id = "206508B6-6CF2-489C-B882-C27ACA3D0310"
+                bool separateAnimatedValue = 1
+                double startTime = 0
+                rel target = </pinguim/Meshes/Sketchfab_model/root/GLTF_SceneRootNode/pinguim_001_39>
+
+                def RealityKitStruct "handoffType"
+                {
+                }
+            }
+        }
+    }
+}
+
+def "buraco_pinguim"
+{
+    def "Timeline"
+    {
+        reorder nameChildren = ["Track", "Track2"]
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Animation"
+            {
+                string actionKind = "animation"
+                string animation = "subir"
+                int blendLayer = 500
+                double duration = 2.062777777777778
+                uniform token info:id = "94D92876-FAED-4F01-962D-59DE72AE2EFA"
+                bool separateAnimatedValue = 1
+                double startTime = 0
+                rel target = </pinguim/Meshes/Sketchfab_model/root/GLTF_SceneRootNode/pinguim_001_39>
+            }
+        }
+
+        def RealityKitTrack "Track2"
+        {
+            def RealityKitAction "Animation"
+            {
+                string actionKind = "animation"
+                string animation = "descer"
+                int blendLayer = 500
+                double duration = 2.1038887299431694
+                uniform token info:id = "4315D6FF-1031-4674-976D-D0B48E5459C2"
+                bool separateAnimatedValue = 1
+                double startTime = 0
+                rel target = </pinguim/Meshes/Sketchfab_model/root/GLTF_SceneRootNode/pinguim_001_39>
+            }
+        }
+    }
+}
+

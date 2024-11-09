@@ -10,50 +10,61 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
-        
+    @State private var up: AnimationResource?
+    @State private var down: AnimationResource?
+
     var body: some View {
         VStack {
             RealityView { content in
-                if let entity = try? await Entity(named: "buraco_pinguim", in: realityKitContentBundle) {
-                    for anim in entity.availableAnimations {
-                        entity.playAnimation(anim.repeat(duration: .infinity),
-                                             transitionDuration: 1.25,startsPaused: true)
+                // Carregar a entidade USDZ com animação
+                if let entity = try? await Entity(named: "pinguim", in: realityKitContentBundle) {
+                    
+                    if let animation = entity.availableAnimations.last {
+                        let upView = AnimationView(
+                            source: animation.definition,
+                            name: "up",
+                            bindTarget: nil,
+                            blendLayer: 0,
+                            repeatMode: .autoReverse,
+                            fillMode: [],
+                            trimStart: 0.0,
+                            trimEnd: 2.0,
+                            trimDuration: 2.0,
+                            offset: 0,
+                            delay: 0,
+                            speed: 1.0)
+                        
+                        up = try? AnimationResource.generate(with: upView)
+                        
+                        
+                        let downView = AnimationView(
+                            source: animation.definition,
+                            name: "down",
+                            bindTarget: nil,
+                            blendLayer: 0,
+                            repeatMode: .autoReverse,
+                            fillMode: [],
+                            trimStart: 2.0,
+                            trimEnd: 4.0,
+                            trimDuration: 2.0,
+                            offset: 0,
+                            delay: 0,
+                            speed: 1.0)
+                        
+                        down = try? AnimationResource.generate(with: downView)
+                        
+                        entity.playAnimation(down!)
                     }
+                    
                     content.add(entity)
                 } else {
                     print("Erro ao carregar a entidade ou animação")
                 }
             }
         }
-        .gesture(TapGesture().targetedToAnyEntity()
-            .onEnded({ value in
-                _ = value.entity.applyTapForBehaviors()
-            })
-        )
-    }
-    
-    
-    // MARK: Helpers
-    private func getTopeiraIfAvailable(scene: RealityFoundation.Scene) -> Entity? {
-        if let topeira = scene.findEntity(named: "Topeira"),
-           let topeiraComponent = topeira.components[TopeiraRuntimeComponent.self],
-           topeiraComponent.isAvailable() {
-            return topeira
-        }
-
-        return nil
-    }
-
-    private func getTopeira(from scene: RealityFoundation.Scene?) -> Entity? {
-        guard let topeira = scene?.findEntity(named: "Topeira"),
-              topeira.components[TopeiraRuntimeComponent.self] != nil else {
-            return nil
-        }
-
-        return topeira
     }
 }
 
-#Preview(windowStyle: .volumetric) {
+#Preview(windowStyle: .automatic) {
     ContentView()
 }

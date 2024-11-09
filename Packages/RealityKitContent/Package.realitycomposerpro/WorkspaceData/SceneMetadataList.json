@@ -8,7 +8,8 @@
     "objectMetadataList" : [
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
-        "Root"
+        "Root",
+        "GridMaterial"
       ],
       {
         "isExpanded" : true,
@@ -16,8 +17,7 @@
       },
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
-        "Root",
-        "GridMaterial"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -43,54 +43,7 @@
     "objectMetadataList" : [
       [
         "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Buraco_topera",
-        "Timeline",
-        "Track"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
         "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Topera"
-      ],
-      {
-        "disallowsFraming" : false,
-        "isExpanded" : false,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Root",
-        "MoveToMole",
-        "Track"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Buraco_topera",
-        "Timeline"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
-        "Root",
-        "MoveToMole"
       ],
       {
         "isExpanded" : true,
@@ -111,6 +64,53 @@
         "Root",
         "MoveToMole",
         "Track3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Root",
+        "MoveToMole"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Buraco_topera",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Buraco_topera",
+        "Timeline"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Topera"
+      ],
+      {
+        "disallowsFraming" : false,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+        "Root",
+        "MoveToMole",
+        "Track"
       ],
       {
         "isExpanded" : true,
@@ -150,25 +150,8 @@
       [
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
-        "Moviment"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "4E3E699B-FE77-4207-B6B5-327D20FF256E",
-        "Root"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "4E3E699B-FE77-4207-B6B5-327D20FF256E",
-        "Root",
-        "Moviment",
-        "Track2"
+        "Timeline",
+        "Track"
       ],
       {
         "isExpanded" : true,
@@ -187,8 +170,7 @@
       [
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
-        "Timeline",
-        "Track3"
+        "Moviment"
       ],
       {
         "isExpanded" : true,
@@ -198,6 +180,16 @@
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
         "Moviment",
+        "Track2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4E3E699B-FE77-4207-B6B5-327D20FF256E",
+        "Root",
+        "Timeline",
         "Track3"
       ],
       {
@@ -216,8 +208,232 @@
       },
       [
         "4E3E699B-FE77-4207-B6B5-327D20FF256E",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "4E3E699B-FE77-4207-B6B5-327D20FF256E",
         "Root",
+        "Moviment",
+        "Track3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7A2B51E2-FDA3-406B-82A6-3923DCD5A574" : {
+    "objectMetadataList" : [
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "buraco_pinguim",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "pinguim",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "buraco_pinguim",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "buraco_pinguim",
         "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root",
+        "move"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "buraco_pinguim",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root",
+        "buraco_pinguim",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root",
+        "buraco_pinguim"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "pinguim",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root",
+        "buraco_pinguim",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "pinguim"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "pinguim",
+        "Meshes",
+        "Sketchfab_model",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "pinguim",
+        "move"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root",
+        "buraco_pinguim",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root",
+        "move",
+        "Track3"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "buraco_pinguim",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "Root",
+        "buraco_pinguim",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "pinguim",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "buraco_pinguim",
+        "Timeline"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7A2B51E2-FDA3-406B-82A6-3923DCD5A574",
+        "pinguim",
+        "move",
         "Track"
       ],
       {
@@ -242,7 +458,7 @@
         "8815EE58-1738-4130-9080-455C3A59078F",
         "Root",
         "buraco_pinguim",
-        "scene"
+        "_materials"
       ],
       {
         "isExpanded" : true,
@@ -251,7 +467,8 @@
       [
         "8815EE58-1738-4130-9080-455C3A59078F",
         "Root",
-        "buraco_pinguim"
+        "buraco_pinguim",
+        "scene"
       ],
       {
         "isExpanded" : true,
@@ -277,8 +494,7 @@
       [
         "8815EE58-1738-4130-9080-455C3A59078F",
         "Root",
-        "buraco_pinguim",
-        "_materials"
+        "buraco_pinguim"
       ],
       {
         "isExpanded" : true,
@@ -288,6 +504,63 @@
   },
   "D20B46EF-9364-429B-8362-C61153E2BD65" : {
     "objectMetadataList" : [
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "buraco_pinguim",
+        "movimento",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "buraco_pinguim",
+        "buraco_pinguim"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "buraco_pinguim",
+        "movimento"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root",
+        "buraco_pinguim",
+        "Meshes",
+        "Sketchfab_model"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "Root",
+        "pinguim_buraco",
+        "buraco_penguim"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
       [
         "D20B46EF-9364-429B-8362-C61153E2BD65",
         "Root",
@@ -300,9 +573,28 @@
       },
       [
         "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "pinguim_buraco",
+        "movimento"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
+        "pinguim_buraco",
+        "movimento",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D20B46EF-9364-429B-8362-C61153E2BD65",
         "Root",
         "buraco_pinguim",
-        "Materials"
+        "Meshes"
       ],
       {
         "isExpanded" : true,
@@ -330,15 +622,7 @@
       [
         "D20B46EF-9364-429B-8362-C61153E2BD65",
         "Root",
-        "buraco_pinguim"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "D20B46EF-9364-429B-8362-C61153E2BD65",
-        "Root"
+        "pinguim_buraco"
       ],
       {
         "isExpanded" : true,
@@ -350,7 +634,61 @@
     "objectMetadataList" : [
       [
         "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root"
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
+        "RootNode_16",
+        "lens_low_6"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "buraco_pinguim",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "buraco_pinguim",
+        "movimento",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001"
       ],
       {
         "isExpanded" : true,
@@ -383,15 +721,7 @@
         "scene_001",
         "Meshes_001",
         "Sketchfab_model_001",
-        "root_001",
-        "GLTF_SceneRootNode_001",
-        "scene_20",
-        "Meshes_19",
-        "Sketchfab_model_18",
-        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
-        "RootNode_16",
-        "lens_low_6",
-        "lens_low_lens_low_0_5"
+        "root_001"
       ],
       {
         "isExpanded" : true,
@@ -403,7 +733,79 @@
         "scene_001",
         "Meshes_001",
         "Sketchfab_model_001",
-        "root_001"
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene",
+        "Meshes",
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Hole_1",
+        "Object_0"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "DB3BCE19-632A-48B1-A913-8E2380D27099",
+        "root",
+        "scene_001",
+        "Meshes_001",
+        "Sketchfab_model_001",
+        "root_001",
+        "GLTF_SceneRootNode_001",
+        "scene_20",
+        "Meshes_19",
+        "Sketchfab_model_18",
+        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
+        "RootNode_16"
       ],
       {
         "isExpanded" : true,
@@ -451,67 +853,9 @@
         "Meshes_19",
         "Sketchfab_model_18",
         "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
-        "RootNode_16"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root",
-        "scene_001",
-        "Meshes_001",
-        "Sketchfab_model_001",
-        "root_001",
-        "GLTF_SceneRootNode_001"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "buraco_pinguim",
-        "movimento",
-        "Track"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root",
-        "scene_001",
-        "Meshes_001",
-        "Sketchfab_model_001",
-        "root_001",
-        "GLTF_SceneRootNode_001",
-        "scene_20",
-        "Meshes_19",
-        "Sketchfab_model_18",
-        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root",
-        "scene_001",
-        "Meshes_001"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "buraco_pinguim",
-        "Timeline",
-        "Track"
+        "RootNode_16",
+        "lens_low_6",
+        "lens_low_lens_low_0_5"
       ],
       {
         "isExpanded" : true,
@@ -521,66 +865,6 @@
         "DB3BCE19-632A-48B1-A913-8E2380D27099",
         "buraco_pinguim",
         "movimento"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root",
-        "scene_001",
-        "Meshes_001",
-        "Sketchfab_model_001"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root",
-        "scene_001",
-        "Meshes_001",
-        "Sketchfab_model_001",
-        "root_001",
-        "GLTF_SceneRootNode_001",
-        "scene_20",
-        "Meshes_19"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root",
-        "scene_001",
-        "Meshes_001",
-        "Sketchfab_model_001",
-        "root_001",
-        "GLTF_SceneRootNode_001",
-        "scene_20",
-        "Meshes_19",
-        "Sketchfab_model_18",
-        "_30d9debdd204927b1ec8ddd5d01928c_fbx_17",
-        "RootNode_16",
-        "lens_low_6"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "DB3BCE19-632A-48B1-A913-8E2380D27099",
-        "root",
-        "scene",
-        "Meshes",
-        "Sketchfab_model",
-        "root",
-        "GLTF_SceneRootNode",
-        "Hole_1",
-        "Object_0"
       ],
       {
         "isExpanded" : true,
